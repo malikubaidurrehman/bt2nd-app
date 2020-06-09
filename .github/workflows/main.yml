@@ -39,5 +39,3 @@ jobs:
       
     - name: deploy on surge
       run: surge ./build http://bt2nd.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
-          
-  
